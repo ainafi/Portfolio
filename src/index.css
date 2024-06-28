@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "conthrax";
+    src: url(./assets/fonts/conthrax/conthrax-sb.otf);
+}
+@font-face {
+    font-family: "monumented";
+    src: url(./assets/fonts/monumentextended-freeforpersonaluse/MonumentExtended-FreeForPersonalUse/MonumentExtended-Ultrabold.otf);
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url(./assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-gradient {
+    /* background: rgb(76,59,207); */
+    background: linear-gradient(159deg, rgba(76,59,207,1) 0%, rgba(227,0,126,1) 87%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text-gradiente{
+    /* background: rgb(76,59,207); */
+    background: linear-gradient(167deg, rgba(227,0,126,1) 0%, rgba(76,59,207,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradient{
+    background: linear-gradient(159deg, rgba(76,59,207,1) 0%, rgba(227,0,126,1) 87%);
+}
