@@ -10,9 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.1",
     "animate.css": "^4.1.1",
     "clsx": "^2.1.1",
     "framer-motion": "^11.2.12",
+    "gsap": "^3.12.5",
     "jquery": "^3.7.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

@@ -1,6 +1,8 @@
 import React from 'react'
 import { CardDemo } from '../components/ui/animatedSkill'
 import { Stack } from '../components/ui/Stack'
+import { Database } from '../components/ui/Database'
+import { Tools } from '../components/ui/Tools'
 const Skills:React.FC = () => {
   
   return (
@@ -15,6 +17,18 @@ const Skills:React.FC = () => {
           <h3 className='text-white font-conthrax text-xl text-center'>stack and library</h3>
           <Stack/>
         </div>
+        
+      </div>
+      <div className='flex flex-wrap items-center md:justify-between justify-center '>
+        <div className='mb-7'>
+          <h3 className='text-white font-conthrax text-xl text-center'>Database</h3>
+          <Database/>
+        </div>
+        <div>
+          <h3 className='text-white font-conthrax text-xl text-center'>Tools</h3>
+          <Tools/>
+        </div>
+        
       </div>
     </div>
   )

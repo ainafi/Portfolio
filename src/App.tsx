@@ -1,5 +1,5 @@
 import React from 'react';
-import { About, Hero,Service, Skills } from './section';
+import { About, Hero,Project,Service, Skills } from './section';
 import Bar from './components/Bar';
 
 const App: React.FC = () => {
@@ -11,6 +11,7 @@ const App: React.FC = () => {
         <About />
         <Service/>
         <Skills/>
+        <Project/>
       </div>
     </main>
   );
