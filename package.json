@@ -16,6 +16,8 @@
     "jquery": "^3.7.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-icon": "^1.0.0",
+    "react-icons": "^5.2.1",
     "splitting": "^1.1.0",
     "tailwind-merge": "^2.3.0",
     "textillate": "^0.4.1"

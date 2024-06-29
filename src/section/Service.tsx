@@ -27,7 +27,7 @@ const Service: React.FC = () => {
 
   return (
     <div className='pt-10 md:pt-16'>
-      <h2 className='text-white text-center uppercase text-3xl md:text-5xl lg:text-6xl font-monumented mb-20'>what i do</h2>
+      <h2 className='text-white text-center uppercase text-3xl md:text-5xl lg:text-6xl font-monumented mb-10 md:mb-20'>what i do</h2>
       <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem]">
         {items.map((item, i) => (
           <BentoGridItem
