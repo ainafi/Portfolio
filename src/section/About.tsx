@@ -6,7 +6,7 @@ import Aina from '../assets/image/aina.png'
 gsap.registerPlugin(ScrollTrigger);
 const About:React.FC = () => {
   const aboutRef=useRef<HTMLHeadingElement>(null)
-  const ainaRef=useRef<HTMLHeadingElement>(null)
+  const ainaRef=useRef<HTMLImageElement>(null)
   const textRef=useRef<HTMLHeadingElement>(null)
   useGSAP(()=>{
     gsap.from(aboutRef.current,{

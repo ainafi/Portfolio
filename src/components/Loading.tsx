@@ -28,6 +28,7 @@ const Loading: React.FC = () => {
       },
       ease: "power4.inOut"
     });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
