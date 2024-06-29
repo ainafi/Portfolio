@@ -1,6 +1,6 @@
 import React from 'react';
 import { BentoGrid, BentoGridItem } from '../components/ui/bento-grid';
-
+import {motion} from 'framer-motion'
 const Service: React.FC = () => {
   const items = [
     {
@@ -27,7 +27,8 @@ const Service: React.FC = () => {
 
   return (
     <div className='pt-10 md:pt-16'>
-      <h2 className='text-white text-center uppercase text-3xl md:text-5xl lg:text-6xl font-monumented mb-10 md:mb-20'>what i do</h2>
+      <motion.h2 
+      whileInView={{y:[-100,0],opacity:[1],}} transition={{duration:1,ease:"easeInOut"}} className='text-white text-center uppercase text-3xl md:text-5xl lg:text-6xl font-monumented mb-10 md:mb-20'>what i do</motion.h2>
       <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem]">
         {items.map((item, i) => (
           <BentoGridItem

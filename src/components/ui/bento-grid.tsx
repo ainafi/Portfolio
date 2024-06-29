@@ -1,6 +1,6 @@
 import { cn } from "../../utils/cn";
 import { useState } from "react";
-
+import {motion} from 'framer-motion'
 export const BentoGrid = ({
   className,
   children,
@@ -40,7 +40,8 @@ export const BentoGridItem = ({
   };
 
   return (
-    <div
+    <motion.div
+    whileInView={{x:[-100,0],opacity:[1],}} transition={{duration:1,ease:"easeInOut"}} 
     onMouseEnter={handleHover}
     onMouseLeave={()=>setIsHover(false)}
       className={cn(
@@ -58,6 +59,6 @@ export const BentoGridItem = ({
           {description}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
