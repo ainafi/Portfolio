@@ -27,13 +27,13 @@ const SocialLink:React.FC = () => {
   },[])
   return (
     <div ref={socialLinkRef} id="link" className='flex items-center mt-5'>
-        <a href="">
+        <a target='__blank' href="https://github.com/ainafi">
             <img className='w-6 mr-4' src={Github} alt="" />
         </a>
-        <a href="">
+        <a target='__blank' href="https://web.facebook.com/mada.clash54">
             <img className='w-3 mr-4' src={Facebook} alt="" />
         </a>
-        <a href="">
+        <a target='__blank' href="https://www.linkedin.com/in/aina-finaritra-razanamino/">
             <img className='w-6 mr-4' src={Linkedin} alt="" />
         </a>
     </div>
