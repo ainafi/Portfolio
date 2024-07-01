@@ -34,7 +34,7 @@ export const TextGenerateEffect = ({
               ? "text-gradient"
               : word.toLowerCase() === "developer"
               ? "text-gradiente"
-              : "dark:text-white text-black";
+              : "text-white";
           return (
             <motion.span
               key={word + idx}
