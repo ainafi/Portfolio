@@ -53,6 +53,6 @@ export const ProjectData: Myproject = [
     title: "Portfolio",
     Stack: [Tailwind, ReactIcon, Ts],
     Demo: Portfolio,
-    link: "https://eplay2.netlify.app/",
+    link: "https://ainafi.netlify.app/",
   },
 ];

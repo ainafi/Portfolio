@@ -29,7 +29,7 @@ const Bar: React.FC = () => {
   }, []);
 
   return (
-    <div id='bar' className='flex items-center p-5 bg-black h-[50px] md:h-[100px] -rotate-12 md:-rotate-3 w-full text-nowrap overflow-hidden absolute left-0 md:top-[600px] top-[400px] opacity-0'>
+    <div id='bar' className='flex items-center p-5 bg-black h-[50px] md:h-[100px] -rotate-12 md:-rotate-3 w-full text-nowrap overflow-hidden absolute left-0 md:top-[600px] top-[440px] opacity-0'>
       <h2 id="title" ref={scrollRef} className='text-white font-conthrax w-full capitalize md:text-[35px] text-center'>
         Aina Finaritra Razanamino - Aina Finaritra Razanamino - Aina Finaritra Razanamino - Aina Finaritra Razanamino -
       </h2>

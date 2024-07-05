@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Logo from "../assets/image/logo.png";
 import gsap from 'gsap';
-
+import Resume from "../assets/resume Aina.pdf"
 const Navbar: React.FC = () => {
   useEffect(() => {
     const tl = gsap.timeline();
@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
   return (
     <div id="nav" className="flex justify-between items-center pb-8">
       <img className="w-[150px]" src={Logo} alt="Logo" />
-      <a href="#" className="text-white font-poppins text-[18px] capitalize flex items-center">
+      <a target='__blank' href={Resume} className="text-white font-poppins text-[18px] capitalize flex items-center">
         resume
         <span className="mr-4 p-2">
           <svg width="28" height="16" viewBox="0 0 28 16" fill="none" xmlns="http://www.w3.org/2000/svg">
