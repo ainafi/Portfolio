@@ -39,7 +39,7 @@ const CardProject: React.FC<ProjectProps> = ({ title, Stack, Demo, link,repo }) 
             <CardItem
               translateZ={20}
               target="__blank"
-              className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white relative"
+              className="px-4 py-2 rounded-xl text-xs font-normal text-white relative"
             >
               <a className="text-[20px] capitalize  font-poppins" target="__blank"  href={link}>demo</a>
             </CardItem>
