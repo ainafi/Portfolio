@@ -17,6 +17,7 @@ type Myproject = {
   Stack: string[];
   Demo: string;
   link: string;
+  repo:string;
 }[];
 
 export const ProjectData: Myproject = [
@@ -25,7 +26,8 @@ export const ProjectData: Myproject = [
     title: "Why Not Linux",
     Stack: [Tailwind, ReactIcon],
     Demo: WNL,
-    link: "https://whynotlinuxmg.github.io/",
+    link: "https://whynotlinuxmg.mg",
+    repo:"https://github.com/ainafi/whynotlinux-website"
   },
   {
     id: 2,
@@ -33,6 +35,7 @@ export const ProjectData: Myproject = [
     Stack: [Tailwind, ReactIcon],
     Demo: Gpt,
     link: "https://gpt-3-aina.netlify.app/",
+    repo:"https://github.com/ainafi/gpt3"
   },
   {
     id: 3,
@@ -40,6 +43,7 @@ export const ProjectData: Myproject = [
     Stack: [HTML, Sass, Js],
     Demo: Clothie,
     link: "https://clothy-aina.netlify.app/",
+    repo:"https://github.com/ainafi/clothy"
   },
   {
     id: 4,
@@ -47,6 +51,7 @@ export const ProjectData: Myproject = [
     Stack: [Material, ReactIcon],
     Demo: Eplay,
     link: "https://eplay2.netlify.app/",
+    repo:"https://github.com/ainafi/play"
   },
   {
     id: 5,
@@ -54,5 +59,6 @@ export const ProjectData: Myproject = [
     Stack: [Tailwind, ReactIcon, Ts],
     Demo: Portfolio,
     link: "https://ainafi.netlify.app/",
+    repo:"https://github.com/ainafi/Portfolio"
   },
 ];
