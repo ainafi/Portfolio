@@ -15,7 +15,7 @@ const CardProject: React.FC<ProjectProps> = ({ title, Stack, Demo, link,repo }) 
       <CardBody className=" relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] bg-black dark:border-white/[0.2] border-black/[0.1] h-auto w-full md:w-[550px] rounded-xl p-4 px-10 border md:mr-[2rem]">
         <CardItem
           translateZ="50"
-          className="text-xl font-bold text-neutral-600 dark:text-white font-conthrax"
+          className="text-xl font-bold text-white font-conthrax"
         >
           {title}
         </CardItem>
