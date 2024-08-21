@@ -26,7 +26,7 @@ export const ProjectData: Myproject = [
     title: "Why Not Linux",
     Stack: [Tailwind, ReactIcon],
     Demo: WNL,
-    link: "https://whynotlinuxmg.mg",
+    link: "https://https://whynotlinux.netlify.app/",
     repo:"https://github.com/ainafi/whynotlinux-website"
   },
   {
